@@ -4,12 +4,12 @@ from kor.nodes import Object, Text, Number
 import tiktoken
 import json, time
 from tqdm import tqdm
-enc = tiktoken.get_encoding("cl100k_base")
 import sys
 from log.logutli import Logger
+
 # 导入 log 模块目录
 sys.path.append("../")
-
+enc = tiktoken.get_encoding("cl100k_base")
 schema = Object(
     id="script",
     description="Adapted from the novel into script",
@@ -140,18 +140,8 @@ def generate_dataset(data, roles):
             res.append(tmp)
     return res
 
-
-if __name__ == "__main__":
-    # LOG
-    local_time = time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime())
-    log_id     = 'generation_dataset'  
-    log_dir    = f'./log/'
-    log_name   = f'generation_dataset_log_{local_time}.log'
-    log_level  = 'info'
-    # 初始化日志
-    logger = Logger(log_id, log_dir, log_name, log_level).logger
-
-    # CONFIG
+if __name__ == '__main__':
+       # CONFIG
     path = './chapter/chapter2.txt'  # 小说路径
     roles = ['胖子', '王胖子', '老烟头']  # 要提取的角色名称
 
@@ -174,6 +164,7 @@ if __name__ == "__main__":
     print(f"共有 {len(dialogue_list)} 条对话样本")
     logger.info(f"共有 {len(dialogue_list)} 条对话样本")
     dataset = generate_dataset(dialogue_list, roles)
+
     print(f"获得 {len(dataset)} 条微调样本")
     logger.info(f"获得 {len(dataset)} 条微调样本")
     save_dataset(path, dataset)
