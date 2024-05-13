@@ -29,6 +29,8 @@ Doraemon 是一个多工具类的agent，目前正在开发阶段，项目的目
 
 ### 1. 小说对话提取
 
+该工具的灵感来源于[葱佬](https://github.com/KMnO4-zx)huanhuan-chat项目的一个分支extract-dialogue，大家可以去关注一下[huanhuan-chat](https://github.com/KMnO4-zx/huanhuan-chat)点个star⭐。
+
 具体内容可以看[extract](./extract/)，目前默认使用的是InternLM的api接口，因为在我测试过程中，发现InternLM提取对话的能力更好，大家可以给[InternLM](https://github.com/InternLM)点个star⭐。
 
 后面可能会支持其他国产大模型的api，国外的不太方便所以就暂时不考虑了，不过现在项目主要还是使用InternLM的api。后续的话会将`dialogue_extractor`集成到lagent中，就是可以使用本地的InternLM模型进行对话提取。
