@@ -35,7 +35,7 @@ Doraemon 是一个多工具类的agent，目前正在开发阶段，项目的目
 <img alt="web-ui" src="./images/ex-1.png" style="border-radius: 8px;"> 
 
 
-后续的话会将大模型能力嵌入到博客中去，灵感来源于Halo博客hao主题的一个功能-TianGPT，大家也可以关注一下我的博客[Mikey](https://blog.lingkongstudy.com.cn)，欢迎大家在博客里面评论交流。
+后续的话会将大模型能力嵌入到博客中去，灵感来源于Halo博客hao主题的一个功能-TianGPT，大家也可以关注一下我的博客[Mikey](https://blog.lingkongstudy.com.cn/about)，欢迎大家在博客里面评论交流。
 <img alt="blog" src="./images/ex-2.png" style="border-radius: 8px;"> 
 
 前段时间也顺手做了两个小工具，一个是github信息统计，另一个是二维码拼接的，项目分别在[GitHub-Repository-Information](https://github.com/acwwt/GitHub-Repository-Information)和[QRC-Processo](https://github.com/acwwt/QRC-Processo)。
