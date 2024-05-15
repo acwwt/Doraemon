@@ -1,3 +1,4 @@
+<div align="center">
 <h1 align="center">Hello Doraemon!</h1>
 <h3 align="center">
 <picture>
@@ -5,21 +6,17 @@
 </picture>
 </h3>
 
-<p align="center">
-  <a href="https://github.com/acwwt/Doraemon/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/acwwt/Doraemon?color=blue&style=flat-square" alt="License">
-  </a>
-  <a href="https://github.com/acwwt/Doraemon/issues">
-    <img src="https://img.shields.io/github/issues/acwwt/Doraemon?color=blue&style=flat-square" alt="Issues">
-  </a>
-  <a href="https://github.com/acwwt/Doraemon/stargazers">
-    <img src="https://img.shields.io/github/stars/acwwt/Doraemon?color=blue&style=flat-square" alt="Stars">
-  </a>
-</p>
+[![license](https://img.shields.io/github/license/acwwt/Doraemon.svg)](https://github.com/acwwt/Doraemon/tree/main/LICENSE)
+[![open issues](https://img.shields.io/github/issues-raw/acwwt/Doraemon)](https://github.com/acwwt/Doraemon/issues)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=acwwt%2FDoraemon%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/acwwt/Doraemon)
+![GitHub Repo stars](https://img.shields.io/github/stars/acwwt/Doraemon)
 
 <p align="center">
   <a href="https://github.com/acwwt/Doraemon/blob/main/README.md">简体中文</a>
 </p>
+
+</div>
 
 ## 简介
 
