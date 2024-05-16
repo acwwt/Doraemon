@@ -1,4 +1,4 @@
-from LLM.Intern_LLM import Intern_LLM
+from llms.Intern_LLM import Intern_LLM
 from kor.extraction import create_extraction_chain
 from kor.nodes import Object, Text, Number
 import tiktoken

@@ -22,6 +22,9 @@
 
 后续有想法将大模型嵌入到博客中，构建一个针对个人知识库的总结助手，我暂且命名为`Doraemon-GPT`。
 
+- 🔥增加了文章总结
+- 💡修改了web_ui
+
 目前，Doraemon 主要包含以下功能：
 
 ### 1. 小说对话提取
@@ -38,7 +41,9 @@
 
 ### 2. 大模型-文章总结
 
-后续的话还会将大模型能力嵌入到博客中去，利用大语言模型进行文章的总结，这个灵感来源于Halo博客hao主题的一个功能-TianGPT，大家也可以关注一下我的博客[Mikey](https://blog.lingkongstudy.com.cn/about)，欢迎大家在博客里面评论交流。
+新增了`article_symmary`，利用大语言模型进行文章的总结。
+
+这个灵感来源于Halo博客hao主题的一个功能-TianliGPT，大家也可以关注一下我的博客[Mikey](https://blog.lingkongstudy.com.cn/about)，欢迎大家在博客里面评论交流。
 <img alt="blog" src="./images/ex-2.png" style="border-radius: 8px;"> 
 
 前段时间也顺手做了两个小工具，一个是github信息统计，另一个是二维码拼接的，项目分别在[GitHub-Repository-Information](https://github.com/acwwt/GitHub-Repository-Information)和[QRC-Processo](https://github.com/acwwt/QRC-Processo)。
