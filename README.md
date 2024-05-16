@@ -1,9 +1,7 @@
 <div align="center">
 <h1 align="center">Hello Doraemon!</h1>
 <h3 align="center">
-<picture>
-  <img alt="Doraemon" src="./images/Doraemon.png" style="width:50%; height:50%; border-radius: 20px;"> 
-</picture>
+<img alt="Doraemon" src="./images/Doraemon.png" style="width:50%; height:50%; border-radius: 20px;"> 
 </h3>
 
 [![license](https://img.shields.io/github/license/acwwt/Doraemon.svg)](https://github.com/acwwt/Doraemon/tree/main/LICENSE)
